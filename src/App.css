@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+body{
+    width: 550px;
+    height: 868px;
+    background: #23252C;
+}
+.App{
+    width: 317px;
+    margin-left: 100px;
+}
+.pic{
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+.main{
+    margin-top: -20px;
+    width: 317px;
+    height:450px;
+    background: #1A1B21;
+}
+.text{
+    Font:'Inter';
+    font-Weight: 400;
+    font-Size: 15px; 
+    Line-height:15.36px;
+    margin-left: 45px;
+    color: white;
+    margin-right: 30px;
+}
+.main h2{
+margin-left: 85px;
+color: white;
+}
+.name{
+    color: #F3BF99;
+    margin-left: 85px;
+    font-weight: 500;
+    margin-top: -25px;
+    letter-spacing: 2px;
+}
+.web{
+    color: white;
+    margin-left: 100px;
+    font-weight: 500;
+    margin-top: -25px;
+}
+h3{
+    color: white;
+    margin-left: 45px;
+
+}
+.email{
+    margin-left: 45px;
+    margin-right: 5px;
+    width: 100px;
+    height: 34px;
+    border: 2px solid #1A1B21;
+    border-radius: 6px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.email img{
+    Width :20px; 
+    Height :15px;
+}
+.link{
+    margin-left: 10px;
+    background: #5093E2;
+    width: 100px;
+    height: 34px;
+    border: 2px solid #1A1B21;
+    border-radius: 6px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link img{
+    Width :20px;
+    Height :15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footer{
+    display: flex;
+    width: 317px;
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.Twitter img{
+    margin-top: 15px;
+    display: inline;
+    margin-right: 12px;
+    margin-left: 73px;
+    Width :25px; 
+    Height: 25px;
+    border: 2px solid #161619;
+    border-radius: 6px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Facebook img {
+    margin-top: 15px;
+    display: inline;
+    margin-right: 12px;
+    Width :25px;
+    Height: 25px;
+    border: 2px solid #161619;
+    border-radius: 6px;
+    
+}
+.Instagram img{
+    margin-top: 15px;
+    display: inline;
+    margin-right: 12px;
+    Width :25px;
+    Height: 25px;
+    border: 2px solid #161619;
+    border-radius: 6px;
+}
+.Github img{
+    margin-top: 15px;
+    display: inline;
+    margin-right: 73px;
+    Width :25px;
+    Height: 25px;
+    border: 2px solid #161619;
+    border-radius: 6px;
 }
